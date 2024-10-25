@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="0" skipped="3">
+  <reporter-output>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> id: login-link]<---------> is Displayed, true<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 4000<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> xpath: //input[@name='username']]<---------> is Displayed, true<br>]]>
+    </line>
+    <line>
+      <![CDATA[7572maria@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> xpath: //input[@name='username']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> xpath: //input[@name='password']]<---------> is Displayed, true<br>]]>
+    </line>
+    <line>
+      <![CDATA[@#STM2024@# <-----> has been put into <-----> [[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> xpath: //input[@name='password']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> css selector: input.btn.btn-lg.px-5]<---------> is Enabled, true<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.cssSelector: input.btn.btn-lg.px-5'<-------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 4000<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 4000<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> partial link text: Enroll Now]<---------> is Enabled, true<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> partial link text: Enroll Now] ---> Actual text : Enroll Now. Expected text : Enroll Now<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> partial link text: Enroll Now]<-------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 4000<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 4000<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-22T13:14:01 EDT" name="Suite" finished-at="2024-10-22T13:14:59 EDT" duration-ms="57714">
+    <groups>
+    </groups>
+    <test started-at="2024-10-22T13:14:01 EDT" name="ChromeTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="274">
+      <class name="pagesTest.HomePageTest">
+        <test-method is-config="true" signature="initialTest(java.lang.reflect.Method)[pri:0, instance:pagesTest.HomePageTest@2cca611f]" started-at="2024-10-22T13:14:02 EDT" name="initialTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="12" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pagesTest.HomePageTest.enrollNowTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at reports.TestManager.createTest(TestManager.java:14)
+at baseUtil.BaseClass.initialTest(BaseClass.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pagesTest.HomePageTest@2cca611f]" started-at="2024-10-22T13:14:02 EDT" name="setUp" finished-at="2024-10-22T13:14:02 EDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enrollNowTest()[pri:0, instance:pagesTest.HomePageTest@2cca611f]" started-at="2024-10-22T13:14:02 EDT" name="enrollNowTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at reports.TestManager.createTest(TestManager.java:14)
+at baseUtil.BaseClass.initialTest(BaseClass.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enrollNowTest -->
+        <test-method is-config="true" signature="afterEachTest(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:pagesTest.HomePageTest@2cca611f]" started-at="2024-10-22T13:14:02 EDT" name="afterEachTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pagesTest.HomePageTest@2cca611f]" started-at="2024-10-22T13:14:02 EDT" name="tearUp" finished-at="2024-10-22T13:14:02 EDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- pagesTest.HomePageTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-10-22T13:14:02 EDT" name="FireFoxTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="46">
+      <class name="pagesTest.HomePageTest">
+        <test-method is-config="true" signature="initialTest(java.lang.reflect.Method)[pri:0, instance:pagesTest.HomePageTest@7f42e06e]" started-at="2024-10-22T13:14:02 EDT" name="initialTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pagesTest.HomePageTest.enrollNowTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at reports.TestManager.createTest(TestManager.java:14)
+at baseUtil.BaseClass.initialTest(BaseClass.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pagesTest.HomePageTest@7f42e06e]" started-at="2024-10-22T13:14:02 EDT" name="setUp" finished-at="2024-10-22T13:14:02 EDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enrollNowTest()[pri:0, instance:pagesTest.HomePageTest@7f42e06e]" started-at="2024-10-22T13:14:02 EDT" name="enrollNowTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at reports.TestManager.createTest(TestManager.java:14)
+at baseUtil.BaseClass.initialTest(BaseClass.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enrollNowTest -->
+        <test-method is-config="true" signature="afterEachTest(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:pagesTest.HomePageTest@7f42e06e]" started-at="2024-10-22T13:14:02 EDT" name="afterEachTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pagesTest.HomePageTest@7f42e06e]" started-at="2024-10-22T13:14:02 EDT" name="tearUp" finished-at="2024-10-22T13:14:02 EDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- pagesTest.HomePageTest -->
+    </test> <!-- FireFoxTest -->
+    <test started-at="2024-10-22T13:14:02 EDT" name="EdgeTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="37">
+      <class name="pagesTest.HomePageTest">
+        <test-method is-config="true" signature="initialTest(java.lang.reflect.Method)[pri:0, instance:pagesTest.HomePageTest@2efd2f21]" started-at="2024-10-22T13:14:02 EDT" name="initialTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="3" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pagesTest.HomePageTest.enrollNowTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at reports.TestManager.createTest(TestManager.java:14)
+at baseUtil.BaseClass.initialTest(BaseClass.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pagesTest.HomePageTest@2efd2f21]" started-at="2024-10-22T13:14:02 EDT" name="setUp" finished-at="2024-10-22T13:14:02 EDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enrollNowTest()[pri:0, instance:pagesTest.HomePageTest@2efd2f21]" started-at="2024-10-22T13:14:02 EDT" name="enrollNowTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at reports.TestManager.createTest(TestManager.java:14)
+at baseUtil.BaseClass.initialTest(BaseClass.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enrollNowTest -->
+        <test-method is-config="true" signature="afterEachTest(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:pagesTest.HomePageTest@2efd2f21]" started-at="2024-10-22T13:14:02 EDT" name="afterEachTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pagesTest.HomePageTest@2efd2f21]" started-at="2024-10-22T13:14:02 EDT" name="tearUp" finished-at="2024-10-22T13:14:02 EDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- pagesTest.HomePageTest -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2024-10-22T13:14:02 EDT" name="SafariTest" finished-at="2024-10-22T13:14:59 EDT" duration-ms="57207">
+      <class name="pagesTest.HomePageTest">
+        <test-method is-config="true" signature="initialReporting()[pri:0, instance:pagesTest.HomePageTest@17d2b075]" started-at="2024-10-22T13:14:00 EDT" name="initialReporting" finished-at="2024-10-22T13:14:01 EDT" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialReporting -->
+        <test-method is-config="true" signature="initialTest(java.lang.reflect.Method)[pri:0, instance:pagesTest.HomePageTest@17d2b075]" started-at="2024-10-22T13:14:02 EDT" name="initialTest" finished-at="2024-10-22T13:14:02 EDT" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pagesTest.HomePageTest.enrollNowTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pagesTest.HomePageTest@17d2b075]" started-at="2024-10-22T13:14:02 EDT" name="setUp" finished-at="2024-10-22T13:14:09 EDT" duration-ms="6582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enrollNowTest()[pri:0, instance:pagesTest.HomePageTest@17d2b075]" started-at="2024-10-22T13:14:09 EDT" name="enrollNowTest" finished-at="2024-10-22T13:14:58 EDT" duration-ms="49888" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> id: login-link]<---------> is Displayed, true<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 4000<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> xpath: //input[@name='username']]<---------> is Displayed, true<br>]]>
+            </line>
+            <line>
+              <![CDATA[7572maria@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> xpath: //input[@name='username']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> xpath: //input[@name='password']]<---------> is Displayed, true<br>]]>
+            </line>
+            <line>
+              <![CDATA[@#STM2024@# <-----> has been put into <-----> [[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> xpath: //input[@name='password']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> css selector: input.btn.btn-lg.px-5]<---------> is Enabled, true<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.cssSelector: input.btn.btn-lg.px-5'<-------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 4000<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 4000<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> partial link text: Enroll Now]<---------> is Enabled, true<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> partial link text: Enroll Now] ---> Actual text : Enroll Now. Expected text : Enroll Now<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> partial link text: Enroll Now]<-------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 4000<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 4000<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enrollNowTest -->
+        <test-method is-config="true" signature="afterEachTest(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:pagesTest.HomePageTest@17d2b075]" started-at="2024-10-22T13:14:58 EDT" name="afterEachTest" finished-at="2024-10-22T13:14:58 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pagesTest.HomePageTest.enrollNowTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=enrollNowTest status=SUCCESS method=HomePageTest.enrollNowTest()[pri:0, instance:pagesTest.HomePageTest@17d2b075] output=[[ChromeDriver: chrome on windows (bf0bda2e443fd3a253295c3c79b955cf)] -> id: login-link]<---------> is Displayed, true<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pagesTest.HomePageTest@17d2b075]" started-at="2024-10-22T13:14:58 EDT" name="tearUp" finished-at="2024-10-22T13:14:59 EDT" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:pagesTest.HomePageTest@17d2b075]" started-at="2024-10-22T13:14:59 EDT" name="publishReport" finished-at="2024-10-22T13:15:01 EDT" duration-ms="1867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- pagesTest.HomePageTest -->
+    </test> <!-- SafariTest -->
+  </suite> <!-- Suite -->
+</testng-results>
